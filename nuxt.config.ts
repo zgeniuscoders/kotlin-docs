@@ -6,7 +6,13 @@ export default defineNuxtConfig({
   modules: [
     // Remove it if you don't use Plausible analytics
     // https://github.com/nuxt-modules/plausible
-    '@nuxtjs/plausible'
-  ]
+    '@nuxtjs/plausible',
+    '@vesp/nuxt-fontawesome'
+  ],
+  fontawesome: {
+    icons: {
+      solid: ['cog',],
+    }
+  },
 
 })
