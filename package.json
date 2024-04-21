@@ -10,11 +10,15 @@
     "lint": "eslint ."
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@nuxt-themes/docus": "latest",
     "@nuxt/devtools": "^1.0.8",
     "@nuxt/eslint-config": "^0.2.0",
     "@nuxtjs/plausible": "^0.2.4",
     "@types/node": "^20.11.24",
+    "@vesp/nuxt-fontawesome": "^1.0.4",
     "eslint": "^8.57.0",
     "nuxt": "^3.10.3"
   }
